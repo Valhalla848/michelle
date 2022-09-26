@@ -1,0 +1,20 @@
+#block1 {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+}
+.block1-img {
+  width: 100%;
+}
+@media all and (max-width: 600px) {
+  #block1 {
+    position: relative;
+    height: 60vh;
+  }
+  .block1-img {
+    width: 160%;
+    position: absolute;
+    left: -35%;
+    top: 0;
+  }
+}

@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Nexa Script Light";
+  src: url(../fonts/ofont.ru_Nexa\ Script.ttf);
+}
+@font-face {
+  font-family: "Port-Arthur";
+  src: url(../fonts/ofont.ru_Port-Arthur.ttf);
+}
+@font-face {
+  font-family: "CaviarDream";
+  src: url(../fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamBold";
+  src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamTwoBold";
+  src: url(../fonts/CaviarDreams_BoldItalic.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamTwo";
+  src: url(../fonts/CaviarDreams_Italic.ttf);
+}
+
+#block5 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block5-left {
+  width: 45%;
+  height: 90%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.block5-left-main {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.block5-left-hr {
+  width: 50%;
+  height: 15px;
+  border: none;
+  background-color: gold;
+  margin-left: 20px;
+}
+.block5-left-text1 {
+  font-size: 1.7vmax;
+  font-weight: 600;
+  font-family: "CaviarDreamTwoBold";
+}
+.block5-left-text2 {
+  font-size: 1.5vmax;
+  font-weight: 100;
+  /* font-family: "Nexa Script Light"; */
+  font-family: "CaviarDreamTwo";
+}
+.block5-left-text3 {
+  font-size: 1.7vmax;
+  font-weight: 600;
+  /* font-family: "Nexa Script Light"; */
+  font-family: "CaviarDreamTwoBold";
+}
+.block5-left-btn {
+  display: flex;
+  margin: 0 auto;
+}
+.block5-left-btn-ru {
+  padding: 10px;
+  font-size: 1.5vmax;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.block5-left-btn-en {
+  padding: 10px;
+  font-size: 1.5vmax;
+  background-color: gold;
+  color: white;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 10px;
+}
+.block5_right {
+  width: 45%;
+  height: 90%;
+}
+.block5Slider {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  border-radius: 5px;
+}
+.RuMenuModal {
+  width: 60%;
+  height: 90%;
+}
+.EnMenuModal {
+  width: 60%;
+  height: 90%;
+}
+.rumenu {
+  width: 50%;
+  height: 100%;
+}
+.enmenu {
+  width: 50%;
+  height: 100%;
+}
+@media all and (max-width: 768px) {
+  #block5 {
+    flex-direction: column;
+  }
+  .block5_right {
+    margin-bottom: 30px;
+  }
+  .block5-left-icon {
+    display: none;
+  }
+  .block5-left {
+    width: 90%;
+    height: 50%;
+  }
+  .block5_right {
+    width: 90%;
+    height: 50%;
+    margin-right: 30px;
+  }
+  .RuMenuModal {
+    width: 90%;
+    height: 90%;
+  }
+  .EnMenuModal {
+    width: 90%;
+    height: 90%;
+  }
+  .rumenu {
+    width: 100%;
+    height: 100%;
+  }
+  .enmenu {
+    width: 100%;
+    height: 100%;
+  }
+}

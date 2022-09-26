@@ -1,13 +1,68 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*  */
+#footer {
+  background-color: darkcyan;
+}
+.footer-text {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.awssld__content {
+  border-radius: 20px !important;
+}
+.awssld__bullets {
+  display: none !important;
+}
+.awssld {
+  --loader-bar-color: none !important;
+}
+.leaflet-container {
+  width: 100%;
+  height: 50vh;
+}
+
+.block2_hover1:hover + .accordion-text {
+  transform: scale(1);
+}
+.block2_hover2:hover + .accordion-text2 {
+  transform: scale(1);
+}
+.block2_hover3:hover + .accordion-text3 {
+  transform: scale(1);
+}
+#number {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 10000;
+}
+.css-118zhtq-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+  background-color: darkcyan !important;
+  color: white !important;
+  width: 70px !important;
+  height: 70px !important;
+}
+.css-13y48ld-MuiSpeedDialAction-staticTooltipLabel {
+  width: 13rem !important;
+  color: darkcyan !important;
+}
+.block6info {
+  background-color: darkcyan;
+  width: 50%;
+  /* height: 100%; */
+  border-radius: 30px;
+  margin-left: 50px;
+  display: flex;
+  padding: 10px;
 }

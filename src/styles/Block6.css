@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Nexa Script Light";
+
+  src: url(../fonts/ofont.ru_Nexa\ Script.ttf);
+}
+@font-face {
+  font-family: "Port-Arthur";
+  src: url(../fonts/ofont.ru_Port-Arthur.ttf);
+}
+@font-face {
+  font-family: "CaviarDream";
+  src: url(../fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamBold";
+  src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamTwoBold";
+  src: url(../fonts/CaviarDreams_BoldItalic.ttf);
+}
+@font-face {
+  font-family: "CaviarDreamTwo";
+  src: url(../fonts/CaviarDreams_Italic.ttf);
+}
+#block6 {
+  background-image: url(../img/block6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.block6-info {
+  width: 70%;
+
+  background-color: darkcyan;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 5%;
+}
+.block6-info-text {
+  border-left: 7px double gold;
+  padding-left: 10px;
+}
+.block6-info-text-div1 {
+  color: white;
+  font-size: 1.8vmax;
+  font-weight: 700;
+  border-bottom: 2px solid gold;
+  padding-bottom: 10px;
+  /* font-family: "Nexa Script Light"; */
+  font-family: "CaviarDream";
+}
+.block6-info-text-div2 {
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: 300;
+  margin-top: 5%;
+  /* font-family: "Nexa Script Light"; */
+  font-family: "CaviarDream";
+}

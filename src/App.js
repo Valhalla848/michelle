@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Block1 from "./components/Block1";
+import Block2 from "./components/Block2";
+import Block3 from "./components/Block3";
+import Block4 from "./components/Block4";
+import Block5 from "./components/Block5";
+import Block6 from "./components/Block6";
+
+import Footer from "./components/Footer";
+
+import Navbar from "./components/Navbar";
+import Number from "./components/Number";
+import Tst1 from "./components/Tst1";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Number />
+      <Block1 />
+      <Block2 />
+      <Block3 />
+      <Block4 />
+      <Block5 />
+
+      <Block6 />
+      <Footer />
+      {/* <Map /> */}
+      {/* <Tst1 /> */}
+    </>
   );
 }
 
